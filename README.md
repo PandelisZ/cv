@@ -1,5 +1,7 @@
 # This is my working CV in latex
 
+Download latest CV in [PDF](https://github.com/PandelisZ/cv/releases/download/v1.1/cv.pdf) :page_facing_up:
+
 ## Version history
 
 * [1.1 - November 2nd 2016](https://github.com/PandelisZ/cv/releases/tag/v1.1)
