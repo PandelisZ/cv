@@ -8,6 +8,10 @@ Download latest CV in [PDF](https://github.com/PandelisZ/cv/releases/download/v1
 * [1.1 - November 2nd 2016](https://github.com/PandelisZ/cv/releases/tag/v1.1)
 * [1.0 - September 5th 2016](https://github.com/PandelisZ/cv/releases/tag/v1.0)
 
+## Building and editing note
+
+This uses XeLaTeX to Build
+
 
 ## Credit
 Template and base from sharelatex.com
