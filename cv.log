@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.2.15)  2 NOV 2016 17:36
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.2.15)  8 NOV 2016 14:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1224,11 +1224,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 26.
-File: img/programming.png Graphic file (type QTm)
- <use  "img/programming.png" >
-Overfull \hbox (2.0665pt too wide) in paragraph at lines 47--47
- [][]
- []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 File: img/5stars.png Graphic file (type QTm)
 <use  "img/5stars.png" >
@@ -1239,26 +1247,33 @@ File: img/5stars.png Graphic file (type QTm)
 File: img/5stars.png Graphic file (type QTm)
 
 <use  "img/5stars.png" >
+File: img/4stars.png Graphic file (type QTm)
+ <use  "img/4stars.png" >
+File: img/4stars.png Graphic file (type QTm)
+ <use  "img/4stars.png" >
 File: img/3stars.png Graphic file (type QTm)
- <use  "img/3stars.png" >
-File: img/programs.png Graphic file (type QTm)
- <use  "img/programs.png" >
-Overfull \hbox (5.37907pt too wide) in paragraph at lines 62--62
- [][]
- []
 
+<use  "img/3stars.png" >
+File: img/2stars.png Graphic file (type QTm)
+ <use  "img/2stars.png" >
+File: img/2stars.png Graphic file (type QTm)
+ <use  "img/2stars.png" >
+File: img/2stars.png Graphic file (type QTm)
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--123
+<use  "img/2stars.png" >
+File: img/2stars.png Graphic file (type QTm)
+ <use  "img/2stars.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 72--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--132
+Underfull \hbox (badness 10000) in paragraph at lines 109--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--137
 
  []
 
@@ -1297,7 +1312,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.151 
+l.156 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1319,30 +1334,30 @@ File: img/5stars.png Graphic file (type QTm)
 File: img/4stars.png Graphic file (type QTm)
 
 <use  "img/4stars.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 170--220
+Underfull \hbox (badness 10000) in paragraph at lines 175--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--234
+Underfull \hbox (badness 10000) in paragraph at lines 227--239
 
  []
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
  (./cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 250.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 250.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 255.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 255.
 Package logreq Info: Writing requests to 'cv.run.xml'.
 \openout1 = `cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40484 strings out of 493706
- 764430 string characters out of 6145769
+ 40482 strings out of 493706
+ 764392 string characters out of 6145769
  1154587 words of memory out of 5000000
- 43381 multiletter control sequences out of 15000+600000
+ 43380 multiletter control sequences out of 15000+600000
  4272 words of font info for 49 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  73i,9n,67p,10444b,664s stack positions out of 5000i,500n,10000p,200000b,80000s
