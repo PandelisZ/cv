@@ -1,9 +1,10 @@
 # This is my working CV in latex
 
-Download latest CV in [PDF](https://github.com/PandelisZ/cv/releases/download/v1.4/cv.pdf) :page_facing_up:
+Download latest CV in [PDF](https://github.com/PandelisZ/cv/releases/download/v1.5/cv.pdf) :page_facing_up:
 
 ## Version history
 
+* [1.5 - June 25th 2018](https://github.com/PandelisZ/cv/releases/tag/v1.5)
 * [1.4 - September 21st 2017](https://github.com/PandelisZ/cv/releases/tag/v1.4)
 * [1.3 - August 17th 2017](https://github.com/PandelisZ/cv/releases/tag/v1.3)
 * [1.2 - November 8th 2016](https://github.com/PandelisZ/cv/releases/tag/v1.2)
