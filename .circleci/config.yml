@@ -1,0 +1,13 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: moss/xelatex
+    steps:
+      - checkout
+      - run:
+          name: Biber
+          command: biber cv.tex
+      - run:
+          name: Xelatex
+          command: xelatex -interaction=nonstopmode cv.tex
