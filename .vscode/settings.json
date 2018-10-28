@@ -1,0 +1,28 @@
+{
+"latex-workshop.latex.recipes": [
+    {
+        "name": "cv",
+        "tools": [
+            "biber",
+            "xelatex"
+        ]
+    },
+],
+"latex-workshop.latex.tools": [
+    {
+        "name": "xelatex",
+        "command": "xelatex",
+        "args": [
+            "-interaction=nonstopmode",
+            "%DOC%"
+        ]
+    },
+    {
+        "name": "biber",
+        "command": "biber",
+        "args": [
+            "%DOC%"
+        ]
+    },
+],
+}
