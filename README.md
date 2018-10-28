@@ -4,6 +4,7 @@ Download latest CV in [PDF](https://github.com/PandelisZ/cv/releases/download/v1
 
 ## Version history
 
+* [1.6 - October 28th 2018](https://github.com/PandelisZ/cv/releases/tag/v1.6)
 * [1.5 - June 25th 2018](https://github.com/PandelisZ/cv/releases/tag/v1.5)
 * [1.4 - September 21st 2017](https://github.com/PandelisZ/cv/releases/tag/v1.4)
 * [1.3 - August 17th 2017](https://github.com/PandelisZ/cv/releases/tag/v1.3)
