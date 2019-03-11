@@ -1,6 +1,6 @@
 # This is my working CV in latex
 
-Download latest CV in [PDF](https://github.com/PandelisZ/cv/releases/download/v1.5/cv.pdf) :page_facing_up:
+Download latest CV in [PDF](https://github.com/PandelisZ/cv/releases/download/v1.6/cv.pdf) :page_facing_up:
 
 ## Version history
 
