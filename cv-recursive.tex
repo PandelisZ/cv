@@ -1,0 +1,40 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt,letterpaper]{article}
+
+\input{cv/layout.tex}
+\geometry{margin=0.56in}
+\setlist[itemize]{topsep=1pt,itemsep=0pt}
+\renewenvironment{ResumeList}{%
+  \begin{itemize}
+}{%
+  \end{itemize}
+  \vspace{1pt}
+}
+\renewcommand{\ResumeSection}[1]{%
+  \vspace{7pt}%
+  {\fontsize{10.5pt}{12pt}\selectfont\bfseries\color{ResumeAccent}\MakeUppercase{#1}\par}%
+  \vspace{2pt}%
+  {\color{ResumeAccentSoft}\hrule height 1.0pt}%
+  \vspace{3pt}%
+}
+\renewcommand{\ResumeJob}[4]{%
+  \vspace{3pt}%
+  {\fontsize{10pt}{12pt}\selectfont\bfseries #1 \textbar{} #2 \textbar{} #3\par}%
+  {\fontsize{9.3pt}{11pt}\selectfont\itshape\color{ResumeMuted} #4\par}%
+}
+
+\begin{document}
+
+\ResumeName{Pandelis Zembashis}
+\ResumeHeadline{CTO \textbar{} Agent Runtime Engineer \textbar{} Self-Improving AI Systems}
+\ResumeContact{\href{mailto:p@ndel.is}{p@ndel.is} \textbar{} \href{https://pa.ndel.is}{pa.ndel.is} \textbar{} \href{https://github.com/PandelisZ}{github.com/PandelisZ} \textbar{} \href{https://www.linkedin.com/in/Pandelis}{linkedin.com/in/Pandelis}}
+
+\input{cv/recursive-profile.tex}
+\input{cv/recursive-experience.tex}
+\input{cv/recursive-writing.tex}
+\input{cv/education.tex}
+\input{cv/recursive-skills.tex}
+
+\end{document}

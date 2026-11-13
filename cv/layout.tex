@@ -1,0 +1,93 @@
+\usepackage[margin=0.65in]{geometry}
+\usepackage{enumitem}
+\usepackage{fontspec}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{xcolor}
+
+\setmainfont{texgyreheros-regular.otf}[
+  Path=./,
+  BoldFont=texgyreheros-bold.otf,
+  ItalicFont=texgyreheros-italic.otf,
+  BoldItalicFont=texgyreheros-bolditalic.otf,
+  Ligatures=TeX
+]
+
+\definecolor{ResumeText}{HTML}{202124}
+\definecolor{ResumeMuted}{HTML}{5F6368}
+\definecolor{ResumeAccent}{HTML}{FF6600}
+\definecolor{ResumeAccentSoft}{HTML}{FFD8BF}
+\definecolor{ResumeRule}{HTML}{E7E0DB}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{2em}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\clubpenalty=10000
+\widowpenalty=10000
+\color{ResumeText}
+\urlstyle{same}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=ResumeText,
+  urlcolor=ResumeAccent,
+  citecolor=ResumeAccent
+}
+
+\setlist[itemize]{
+  leftmargin=1.15em,
+  topsep=2pt,
+  itemsep=1pt,
+  parsep=0pt,
+  partopsep=0pt,
+  label=\textcolor{ResumeMuted}{\textbullet}
+}
+
+\newcommand{\ResumeName}[1]{%
+  {\fontsize{22pt}{24pt}\selectfont\bfseries #1\par}%
+}
+
+\newcommand{\ResumeHeadline}[1]{%
+  \vspace{3pt}%
+  {\fontsize{10.5pt}{12pt}\selectfont\bfseries\color{ResumeAccent} #1\par}%
+}
+
+\newcommand{\ResumeContact}[1]{%
+  \vspace{4pt}%
+  {\fontsize{9.5pt}{11pt}\selectfont\color{ResumeMuted} #1\par}%
+}
+
+\newcommand{\ResumeSection}[1]{%
+  \vspace{11pt}%
+  {\fontsize{10.5pt}{12pt}\selectfont\bfseries\color{ResumeAccent}\MakeUppercase{#1}\par}%
+  \vspace{3pt}%
+  {\color{ResumeAccentSoft}\hrule height 1.0pt}%
+  \vspace{5pt}%
+}
+
+\newcommand{\ResumeParagraph}[1]{%
+  {\fontsize{10pt}{12pt}\selectfont #1\par}%
+}
+
+\newcommand{\ResumeJob}[4]{%
+  \vspace{5pt}%
+  {\fontsize{10pt}{12pt}\selectfont\bfseries #1 \textbar{} #2 \textbar{} #3\par}%
+  {\fontsize{9.3pt}{11pt}\selectfont\itshape\color{ResumeMuted} #4\par}%
+}
+
+\newenvironment{ResumeList}{%
+  \begin{itemize}
+}{%
+  \end{itemize}
+  \vspace{3pt}
+}
+
+\newcommand{\ResumeLabelLine}[2]{%
+  {\fontsize{10pt}{12pt}\selectfont\textbf{#1}: #2\par}%
+}
+
+\newcommand{\ResumeSingleLine}[1]{%
+  {\fontsize{10pt}{12pt}\selectfont #1\par}%
+}
